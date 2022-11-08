@@ -38,7 +38,7 @@ main {
 .timer {
     display:flex;
     justify-content: center;
-    font-size: clamp(5rem, 3rem + 3vh, 8rem);
+    font-size: clamp(4rem, 6rem + 6vh, 16rem);
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ button {
     display: flex;
     border: none;
     background-color: transparent;
-    width: clamp(1rem, 3rem + 3vh, 8rem);
+    width: clamp(4rem, 6rem + 6vh, 16rem);
     align-items: center;
 
     cursor:pointer;
@@ -61,7 +61,7 @@ button {
     background: var(--bgc-secondary);
     margin-top: 1.5rem;
     padding: .5rem;
-    width: clamp(15rem, 3rem + 3vh, 8rem);
+    width: clamp(30rem, 6rem + 6vh, 16rem);
 
     border-radius: 9999px;
 }
@@ -72,11 +72,11 @@ footer {
 }
 
 .mute-off {
-    width: clamp(4rem, 2rem + 3vh, 8rem);
+    width: clamp(8rem, 4rem + 6vh, 16rem);
     margin:0 1rem .2rem 0;
 }
 
 .mute-on {
-    width: clamp(4rem, 2rem + 3vh, 8rem);
+    width: clamp(8rem, 4rem + 6vh, 16rem);
     margin:0 1rem 1rem 0;
 }
