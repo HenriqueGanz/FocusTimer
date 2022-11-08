@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* variaveis */
+    --ff-: 'Roboto', sans-serif;
+    --fc-primary: #FFFFFF;
+    --bgc-primary: hsl(240, 5%, 7%);
+    --bgc-secondary: hsla(194, 100%, 63%, 0.13);
+    --buttoncolor-primary:hsl(194, 100%, 63%);
+}
+
+body {
+    background: var(--bgc-primary);
+    color: var(--fc-primary);
+    font-family: var(--ff-);
+
+    display: grid;
+    min-height: 100vh;
+
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    justify-self:center;
+    align-self: end;
+
+}
+
+.timer {
+    display:flex;
+    justify-content: center;
+    font-size: clamp(5rem, 3rem + 3vh, 8rem);
+    font-weight: bold;
+}
+
+button {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    width: clamp(1rem, 3rem + 3vh, 8rem);
+    align-items: center;
+
+    cursor:pointer;
+}
+
+.controler {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    gap: 2.2rem;
+
+    background: var(--bgc-secondary);
+    margin-top: 1.5rem;
+    padding: .5rem;
+    width: clamp(15rem, 3rem + 3vh, 8rem);
+
+    border-radius: 9999px;
+}
+
+footer {
+    align-self: end;
+    justify-self: end;
+}
+
+.mute-off {
+    width: clamp(4rem, 2rem + 3vh, 8rem);
+    margin:0 1rem .2rem 0;
+}
+
+.mute-on {
+    width: clamp(4rem, 2rem + 3vh, 8rem);
+    margin:0 1rem 1rem 0;
+}
